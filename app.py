@@ -2,7 +2,7 @@ from flask import Flask, render_template,redirect,url_for,request,send_file
 app=Flask(__name__)
 import csv
 import os
-path="C:\\Users\\user\\Desktop\\codes\\data_base\\assignment\\assignment3-attendence and sentimental\\"  # plese enter your own path in place of this
+path="C:\\Users\\Addict\\Desktop\\fhaltukaam\\Attendance-system\\"  # plese enter your own path in place of this
 def file_ex(a,b):
     if a.split(".")[1]=="txt" and b.split(".")[1]=="csv":
         return True
